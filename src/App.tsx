@@ -1,48 +1,43 @@
-import { useState } from 'react';
-import Modal from 'react-modal'
 import { Dashboard } from "./components/Dashboard";
 import { Header } from "./components/Header";
-import { NewTrasactionModal } from './components/NewTransactionModal';
 import { GlobalStyle } from "./styles/global";
+import Modal from 'react-modal';
+import { useState } from "react";
+import { NewTransactionModal } from "./components/NewTransactionModal";
+
+import { TransactionsProvider } from '../src/hooks/useTransactions';
+
 
 Modal.setAppElement('#root');
 
-
 export function App() {
-
   const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false);
 
-  //functions iniciadas com "Handle" significa que o usuário vai clicar em alguma coisa para executa-la
-
   function handleOpenNewTransactionModal() {
-    setIsNewTransactionModalOpen(true)
+    setIsNewTransactionModalOpen(true);
 
   }
 
   function handleCloseNewTransactionModal() {
-    setIsNewTransactionModalOpen(false)
+    setIsNewTransactionModalOpen(false);
+
+
 
   }
-
-
   return (
-    <>
-
+    <TransactionsProvider>
       <Header onOpenNewTransactionModal={handleOpenNewTransactionModal} />
       <Dashboard />
 
-      <NewTrasactionModal
+
+      <NewTransactionModal
         isOpen={isNewTransactionModalOpen}
         onRequestClose={handleCloseNewTransactionModal}
-
       />
-
-
-
       <GlobalStyle />
+    </TransactionsProvider>
 
-    </>
   );
 }
 
-
+export default App;

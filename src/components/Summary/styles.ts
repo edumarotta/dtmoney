@@ -1,11 +1,11 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
-    
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    margin-top: -7rem;
+    margin-top: -10rem;
 
     div {
         background: var(--shape);
@@ -17,20 +17,29 @@ export const Container = styled.div`
             display: flex;
             align-items: center;
             justify-content: space-between;
+
         }
 
         strong {
             display: block;
             margin-top: 1rem;
             font-size: 2rem;
-            line-height:3rem;
             font-weight: 500;
+            line-height: 3rem;
         }
 
-        &.highlights-background {
+        &.highlight-background {
             background: var(--green);
-            color: #fff
+            color: #fff;
+            
         }
+
+
+
+
+
     }
+
+
 
 `
