@@ -1,5 +1,8 @@
 # dtmoney 
 
+![image](https://user-images.githubusercontent.com/47776453/117044539-ecc84180-ace4-11eb-947e-1fd7b9eb0264.png)
+
+
 Esse projeto foi criado com Create React app.
 
 dtmoney é uma aplicação web para registros de gastos.
