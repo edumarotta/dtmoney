@@ -5,7 +5,7 @@ dtmoney é uma aplicação web para registros de gastos.
 
 
 ## Sobre o Projeto
-Projeto criado para estudos, criado baseado no curso RocketSeat (www.rockesteat.com) Trilha React
+Projeto criado para estudos, criado baseado no curso RocketSeat (www.rockesteat.com.br) Trilha React
 Foi criado utilizando as bibliotecas
 
 * MirageJs
@@ -14,7 +14,7 @@ Foi criado utilizando as bibliotecas
 * ContextAPI
  
 
-Foi utilizado Typescript
+Foi utilizado Typescript para tipagem do projeto
 
 ## Executando
 
