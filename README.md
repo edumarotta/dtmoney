@@ -1,12 +1,21 @@
 # dtmoney 
 
-Esse projeto foi criado com Create React app
+Esse projeto foi criado com Create React app.
+
 dtmoney é uma aplicação web para registros de gastos.
+
+Nele, o usuário poderá registrar Entradas e Saídas, de uma forma bem facil e prática.
+
+Bsata clicar em nova transação, e, fazer o registro. A Aplicação ira fazer o calculo de valor em caixa.
+
+
+
 
 
 ## Sobre o Projeto
 Projeto criado para estudos, criado baseado no curso RocketSeat (www.rockesteat.com.br) Trilha React
-Foi criado utilizando as bibliotecas
+
+Foi criado utilizando as seguintes bibliotecas
 
 * MirageJs
 * Styled Component
