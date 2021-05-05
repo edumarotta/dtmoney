@@ -9,7 +9,7 @@ dtmoney é uma aplicação web para registros de gastos.
 
 Nele, o usuário poderá registrar Entradas e Saídas, de uma forma bem facil e prática.
 
-Bsata clicar em nova transação, e, fazer o registro. A Aplicação ira fazer o calculo de valor em caixa.
+Basta clicar em nova transação, e, fazer o registro. A Aplicação ira fazer o calculo de valor em caixa.
 
 
 
